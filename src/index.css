@@ -1,13 +1,75 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.MainContainer{
+  display:flex;
+  flex-direction:column;
+  align-items: Center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.HeaderCont{
+  display:flex;
+  flex-direction:row;
+  align-items: Center;
 }
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.addModal{
+  margin-bottom: 40px ;
+}
+
+.formCtrl{
+  margin-bottom:20px 0 ;
+}
+
+.formCtrl label{ 
+  display:block;
+}
+
+.formCtrl input{
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.formCtrl-check{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.userCard{
+  background-color:whitesmoke;
+  margin:5px;
+  border-radius:2px;
+  box-shadow:0px 2px 4px 1px rgb(161, 161, 161);
+}
+
+.checkBtn{
+  color:green;
+  cursor: 'pointer';
+}
+
+.imgPerf{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  border-radius:60%;  
+}
+
